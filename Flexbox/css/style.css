@@ -1,0 +1,29 @@
+.pai{
+    border: 2px solid;
+    width:98%;
+    height: 300px;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    flex-direction: column;
+}
+
+.filho{
+    background-color: blue;
+    width:50px;
+    height: 50px;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+.amarela{
+    background-color: yellow;
+    border: 2px solid;
+}
+.laranja{
+    background-color: orange;
+}
+.lilas{
+    background-color: blueviolet;
+    order: -1;
+}
