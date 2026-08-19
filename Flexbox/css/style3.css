@@ -1,0 +1,57 @@
+*{
+    margin:0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.conteiner{
+    border: 2px solid;
+    width: 98%;
+    height: 500px;
+}
+
+header{
+    background-color: aqua;
+    height: 20%;
+}
+
+.principal{
+    display: flex;
+    height: 70%;
+
+}
+
+main{
+    background-color: cadetblue;
+    width: 80%;   
+    display: flex;
+    flex-flow: column wrap;
+}
+
+aside{
+    background-color: blue;
+    width: 20%;
+}
+
+section{
+    border: 2px solid;
+    width: 50%;
+    height: 50%;
+    background-color: lightcoral;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bloco{
+    background-color: lightgreen;
+    padding: 40px;
+}
+
+footer{
+    background-color: blueviolet;
+    height: 10%;
+}
+
+
